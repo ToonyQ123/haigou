@@ -3,6 +3,10 @@ package com.qf.j1902.pojo;
 import lombok.Data;
 
 import java.util.Date;
+/*
+* 支付日志
+* */
+
 @Data
 public class TbPayLog {
     private String outTradeNo;

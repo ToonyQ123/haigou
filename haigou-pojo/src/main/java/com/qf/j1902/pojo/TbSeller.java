@@ -3,6 +3,9 @@ package com.qf.j1902.pojo;
 import lombok.Data;
 
 import java.util.Date;
+/*
+* 商家
+* */
 @Data
 public class TbSeller {
     private String sellerId;

@@ -3,7 +3,9 @@ package com.qf.j1902.pojo;
 import lombok.Data;
 
 import java.math.BigDecimal;
-
+/*
+* 订单明细
+* */
 @Data
 public class TbOrderItem {
     private Long id;

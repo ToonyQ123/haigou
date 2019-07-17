@@ -1,7 +1,9 @@
 package com.qf.j1902.pojo;
 
 import lombok.Data;
-
+/*
+* 商品详情
+* */
 @Data
 public class TbGoodsDesc {
     private Long goodsId;

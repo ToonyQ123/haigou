@@ -3,7 +3,10 @@ package com.qf.j1902.pojo;
 import lombok.Data;
 
 import java.math.BigDecimal;
-
+/*
+*
+* 商品
+* */
 @Data
 public class TbGoods {
     private Long id;

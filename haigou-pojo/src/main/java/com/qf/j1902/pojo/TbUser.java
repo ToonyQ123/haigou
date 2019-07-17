@@ -3,6 +3,10 @@ package com.qf.j1902.pojo;
 import lombok.Data;
 
 import java.util.Date;
+/*
+* 用户
+* */
+
 @Data
 public class TbUser {
     private Long id;

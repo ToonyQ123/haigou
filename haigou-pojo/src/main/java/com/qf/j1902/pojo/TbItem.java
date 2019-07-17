@@ -4,7 +4,9 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 import java.util.Date;
-
+/*
+* 商品明细
+* */
 @Data
 public class TbItem {
     private Long id;

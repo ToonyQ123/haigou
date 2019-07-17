@@ -4,7 +4,9 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 import java.util.Date;
-
+/*
+* 订单
+* */
 @Data
 public class TbOrder {
     private Long orderId;
