@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="haigou-eureka-server" />
+        <module name="haigou-xxx-client" />
+        <module name="haigou-pojo" />
+        <module name="haigou-common" />
+        <module name="haigou-config-server" />
+        <module name="haigou_solr_seach" />
+        <module name="haigou" />
+        <module name="haigou-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="haigou-common" options="-parameters" />
+      <module name="haigou-config-server" options="-parameters" />
+      <module name="haigou-eureka-server" options="-parameters" />
+      <module name="haigou-gateway" options="-parameters" />
+      <module name="haigou-pojo" options="-parameters" />
+      <module name="haigou-xxx-client" options="-parameters" />
+      <module name="haigou_solr_seach" options="-parameters" />
+    </option>
+  </component>
+</project>
