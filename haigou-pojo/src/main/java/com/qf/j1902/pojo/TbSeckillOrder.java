@@ -6,29 +6,29 @@ import java.math.BigDecimal;
 import java.util.Date;
 @Data
 public class TbSeckillOrder {
-    private Long id;
+    private Long id;//主键
 
-    private Long seckillId;
+    private Long seckillId;//秒杀商品ID
 
-    private BigDecimal money;
+    private BigDecimal money;//支付金额
 
-    private String userId;
+    private String userId;//用户
 
-    private String sellerId;
+    private String sellerId;//商家
 
-    private Date createTime;
+    private Date createTime;//创建时间
 
-    private Date payTime;
+    private Date payTime;//支付时间
 
-    private String status;
+    private String status;//状态
 
-    private String receiverAddress;
+    private String receiverAddress;//收货人地址
 
-    private String receiverMobile;
+    private String receiverMobile;//收货人电话
 
-    private String receiver;
+    private String receiver;//收货人
 
-    private String transactionId;
+    private String transactionId;//交易流水
 
 
 }

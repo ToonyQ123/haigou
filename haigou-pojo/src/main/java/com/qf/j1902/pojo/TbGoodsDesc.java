@@ -6,19 +6,19 @@ import lombok.Data;
 * */
 @Data
 public class TbGoodsDesc {
-    private Long goodsId;
+    private Long goodsId;//SPU_ID
 
-    private String introduction;
+    private String introduction;//描述
 
-    private String specificationItems;
+    private String specificationItems;//规格结果集，所有规格，包含isSelected
 
-    private String customAttributeItems;
+    private String customAttributeItems;//自定义属性（参数结果）
 
-    private String itemImages;
+    private String itemImages;//
 
-    private String packageList;
+    private String packageList;//包装列表
 
-    private String saleService;
+    private String saleService;//售后服务
 
 
 }

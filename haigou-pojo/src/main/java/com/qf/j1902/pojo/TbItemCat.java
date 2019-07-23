@@ -6,12 +6,12 @@ import lombok.Data;
 * */
 @Data
 public class TbItemCat {
-    private Long id;
+    private Long id;//类目ID
 
-    private Long parentId;
+    private Long parentId;//父类目ID=0时，代表的是一级的类目
 
-    private String name;
+    private String name;//类目名称
 
-    private Long typeId;
+    private Long typeId;//类型id
 
 }

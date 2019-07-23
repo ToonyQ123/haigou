@@ -4,11 +4,11 @@ import lombok.Data;
 
 @Data
 public class TbProvinces {
-    private Integer id;
+    private Integer id;//唯一ID
 
-    private String provinceid;
+    private String provinceid;//省份ID
 
-    private String province;
+    private String province;//省份名称
 
 
 }

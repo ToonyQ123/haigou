@@ -6,9 +6,9 @@ import lombok.Data;
 * */
 @Data
 public class TbContentCategory {
-    private Long id;
+    private Long id;//类目ID
 
-    private String name;
+    private String name;//分类名称
 
 
 }
