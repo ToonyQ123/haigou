@@ -19,4 +19,10 @@ public class CommonController {
     public String showindex() {
         return "login";
     }
+
+    @RequestMapping("/seller")
+    public  String seller(){
+        return  "redirect:http://localhost:8085/#/seller1";
+    }
+
 }
