@@ -7,6 +7,12 @@ public class MsgResult {
     private String maessage;
     private List<?> data;
 
+    public MsgResult(Integer status, String maessage, List<?> data) {
+        this.status = status;
+        this.maessage = maessage;
+        this.data = data;
+    }
+
     public Integer getStatus() {
         return status;
     }
