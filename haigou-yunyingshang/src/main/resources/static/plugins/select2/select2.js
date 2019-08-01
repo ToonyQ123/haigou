@@ -1568,7 +1568,7 @@ the specific language governing permissions and limitations under the Apache Lic
             var el = $(event.target).closest(".select2-result-selectable");
             if (el.length > 0 && !el.is(".select2-highlighted")) {
                 var choices = this.findHighlightableChoices();
-                this.highlight(choices.index(el));
+                this.highlight(choices.admin(el));
             } else if (el.length == 0) {
                 // if we are over an unselectable item remove all highlights
                 this.removeHighlight();

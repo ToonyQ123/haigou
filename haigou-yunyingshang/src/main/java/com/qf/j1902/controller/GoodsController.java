@@ -1,7 +1,6 @@
 package com.qf.j1902.controller;
 
 import com.qf.j1902.utils.ResultFactory;
-import com.qf.j1902.vo.LoginInfoVo;
 import com.qf.j1902.vo.MessageResult;
 import com.qf.j1902.vo.MsgResult;
 
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Created by zhou on 2019/7/24.
  */
-@RestController
+/*@RestController
 @RequestMapping("/api")
 public class GoodsController {
     @CrossOrigin
@@ -33,4 +32,4 @@ public class GoodsController {
         return  ResultFactory.buildSuccessResult("登录成功");
 
     }
-}
+}*/
